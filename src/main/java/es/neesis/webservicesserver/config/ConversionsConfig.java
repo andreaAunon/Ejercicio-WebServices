@@ -13,13 +13,13 @@ public class ConversionsConfig {
     @Bean
     public Jaxb2Marshaller marshaller() {
         Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
-        marshaller.setContextPath("es.andrea.webservicesserver.ws.numbers");
+        marshaller.setContextPath("es.neesis.webservicesserver.ws.numbers");
         return marshaller;
     }
 
     // Controller
     @Bean
-    public ConversionsClient conversionsClient(Jaxb2Marshaller marshaller) {
+    public ConversionsClient userClient(Jaxb2Marshaller marshaller) {
         ConversionsClient client = new ConversionsClient();
         client.setDefaultUri("https://www.dataaccess.com/webservicesserver/NumberConversion.wso");
         client.setMarshaller(marshaller);

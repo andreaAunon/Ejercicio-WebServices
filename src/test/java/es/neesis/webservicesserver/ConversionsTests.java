@@ -23,12 +23,14 @@ public class ConversionsTests {
     @Test
     public void numbersToDollars() {
         NumberToDollarsResponse testConversion = conversionsClient.numberToDollars(1);
-        assertEquals("one", testConversion.getNumberToDollarsResult());
+        assertEquals("one dollars", testConversion.getNumberToDollarsResult());
     }
 
     @Test
     public void numbersToWords() {
         NumberToWordsResponse testConversion = conversionsClient.numberToWords(1);
-        assertEquals("one", testConversion.getNumberToWordsResult());
+        assertEquals("one ", testConversion.getNumberToWordsResult());
     }
+
+    // Faltarian los negativos
 }
