@@ -8,7 +8,7 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dataaccess.com</groupId>
+	<groupId>es.andrea</groupId>
 	<artifactId>webservicesserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>webservicesserver</name>
@@ -52,6 +52,12 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>6.1.4</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -83,10 +89,10 @@
 				<configuration>
 					<schemaLanguage>WSDL</schemaLanguage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-					<generatePackage>es.neesis.soapclient.ws.user</generatePackage>
+					<generatePackage>es.andrea.webservicesserver.ws.numbers</generatePackage>
 					<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>
 					<schemaIncludes>
-						<include>users.wsdl</include>
+						<include>numberConversions.wsdl</include>
 					</schemaIncludes>
 				</configuration>
 			</plugin>
