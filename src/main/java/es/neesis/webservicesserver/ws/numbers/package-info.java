@@ -5,5 +5,5 @@
 // Generado el: 2024.03.20 a las 12:10:29 PM CET 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.dandrea.es/webservicesserver/", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://www.dandrea.es/webservicesserver/", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package es.neesis.webservicesserver.ws.numbers;
