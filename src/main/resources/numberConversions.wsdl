@@ -5,7 +5,7 @@
              xmlns:tns="http://www.dataaccess.com/webservicesserver/"
              name="NumberConversion" targetNamespace="http://www.dataaccess.com/webservicesserver/">
     <types>
-        <xs:schema elementFormDefault="qualified" targetNamespace="http://www.dandrea.es/webservicesserver/">
+        <xs:schema elementFormDefault="qualified" targetNamespace="http://www.dataaccess.com/webservicesserver/">
             <xs:element name="NumberToWords">
                 <xs:complexType>
                     <xs:sequence>
