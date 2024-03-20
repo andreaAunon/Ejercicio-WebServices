@@ -1,9 +1,9 @@
-package es.andrea.webservicesserver;
+package es.neesis.webservicesserver;
 
-import es.andrea.webservicesserver.client.ConversionsClient;
-import es.andrea.webservicesserver.config.ConversionsConfig;
-import es.andrea.webservicesserver.ws.numbers.NumberToDollarsResponse;
-import es.andrea.webservicesserver.ws.numbers.NumberToWordsResponse;
+import es.neesis.webservicesserver.client.ConversionsClient;
+import es.neesis.webservicesserver.config.ConversionsConfig;
+import es.neesis.webservicesserver.ws.numbers.NumberToDollarsResponse;
+import es.neesis.webservicesserver.ws.numbers.NumberToWordsResponse;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

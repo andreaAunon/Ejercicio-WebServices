@@ -2,17 +2,18 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.03.20 a las 11:53:54 AM CET 
+// Generado el: 2024.03.20 a las 12:10:29 PM CET 
 //
 
 
-package es.andrea.webservicesserver.ws.numbers;
+package es.neesis.webservicesserver.ws.numbers;
 
-import java.math.BigDecimal;
+import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -26,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="dNum" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
+ *         &lt;element name="ubiNum" type="{http://www.w3.org/2001/XMLSchema}unsignedLong"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -37,36 +38,37 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "dNum"
+    "ubiNum"
 })
-@XmlRootElement(name = "NumberToDollars")
-public class NumberToDollars {
+@XmlRootElement(name = "NumberToWords")
+public class NumberToWords {
 
     @XmlElement(required = true)
-    protected BigDecimal dNum;
+    @XmlSchemaType(name = "unsignedLong")
+    protected BigInteger ubiNum;
 
     /**
-     * Obtiene el valor de la propiedad dNum.
+     * Obtiene el valor de la propiedad ubiNum.
      * 
      * @return
      *     possible object is
-     *     {@link BigDecimal }
+     *     {@link BigInteger }
      *     
      */
-    public BigDecimal getDNum() {
-        return dNum;
+    public BigInteger getUbiNum() {
+        return ubiNum;
     }
 
     /**
-     * Define el valor de la propiedad dNum.
+     * Define el valor de la propiedad ubiNum.
      * 
      * @param value
      *     allowed object is
-     *     {@link BigDecimal }
+     *     {@link BigInteger }
      *     
      */
-    public void setDNum(BigDecimal value) {
-        this.dNum = value;
+    public void setUbiNum(BigInteger value) {
+        this.ubiNum = value;
     }
 
 }

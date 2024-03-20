@@ -1,4 +1,4 @@
-package es.andrea.webservicesserver;
+package es.neesis.webservicesserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

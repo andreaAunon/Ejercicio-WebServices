@@ -2,11 +2,11 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.03.20 a las 11:53:54 AM CET 
+// Generado el: 2024.03.20 a las 12:10:29 PM CET 
 //
 
 
-package es.andrea.webservicesserver.ws.numbers;
+package es.neesis.webservicesserver.ws.numbers;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="NumberToDollarsResult" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="NumberToWordsResult" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "numberToDollarsResult"
+    "numberToWordsResult"
 })
-@XmlRootElement(name = "NumberToDollarsResponse")
-public class NumberToDollarsResponse {
+@XmlRootElement(name = "NumberToWordsResponse")
+public class NumberToWordsResponse {
 
-    @XmlElement(name = "NumberToDollarsResult", required = true)
-    protected String numberToDollarsResult;
+    @XmlElement(name = "NumberToWordsResult", required = true)
+    protected String numberToWordsResult;
 
     /**
-     * Obtiene el valor de la propiedad numberToDollarsResult.
+     * Obtiene el valor de la propiedad numberToWordsResult.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getNumberToDollarsResult() {
-        return numberToDollarsResult;
+    public String getNumberToWordsResult() {
+        return numberToWordsResult;
     }
 
     /**
-     * Define el valor de la propiedad numberToDollarsResult.
+     * Define el valor de la propiedad numberToWordsResult.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setNumberToDollarsResult(String value) {
-        this.numberToDollarsResult = value;
+    public void setNumberToWordsResult(String value) {
+        this.numberToWordsResult = value;
     }
 
 }

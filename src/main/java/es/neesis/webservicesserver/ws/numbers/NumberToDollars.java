@@ -2,12 +2,13 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.03.20 a las 11:53:54 AM CET 
+// Generado el: 2024.03.20 a las 12:10:29 PM CET 
 //
 
 
-package es.andrea.webservicesserver.ws.numbers;
+package es.neesis.webservicesserver.ws.numbers;
 
+import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -25,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="NumberToWordsResult" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="dNum" type="{http://www.w3.org/2001/XMLSchema}decimal"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +37,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "numberToWordsResult"
+    "dNum"
 })
-@XmlRootElement(name = "NumberToWordsResponse")
-public class NumberToWordsResponse {
+@XmlRootElement(name = "NumberToDollars")
+public class NumberToDollars {
 
-    @XmlElement(name = "NumberToWordsResult", required = true)
-    protected String numberToWordsResult;
+    @XmlElement(required = true)
+    protected BigDecimal dNum;
 
     /**
-     * Obtiene el valor de la propiedad numberToWordsResult.
+     * Obtiene el valor de la propiedad dNum.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link BigDecimal }
      *     
      */
-    public String getNumberToWordsResult() {
-        return numberToWordsResult;
+    public BigDecimal getDNum() {
+        return dNum;
     }
 
     /**
-     * Define el valor de la propiedad numberToWordsResult.
+     * Define el valor de la propiedad dNum.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link BigDecimal }
      *     
      */
-    public void setNumberToWordsResult(String value) {
-        this.numberToWordsResult = value;
+    public void setDNum(BigDecimal value) {
+        this.dNum = value;
     }
 
 }

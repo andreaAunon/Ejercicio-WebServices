@@ -1,9 +1,9 @@
-package es.andrea.webservicesserver.client;
+package es.neesis.webservicesserver.client;
 
-import es.andrea.webservicesserver.ws.numbers.NumberToDollars;
-import es.andrea.webservicesserver.ws.numbers.NumberToDollarsResponse;
-import es.andrea.webservicesserver.ws.numbers.NumberToWords;
-import es.andrea.webservicesserver.ws.numbers.NumberToWordsResponse;
+import es.neesis.webservicesserver.ws.numbers.NumberToDollars;
+import es.neesis.webservicesserver.ws.numbers.NumberToDollarsResponse;
+import es.neesis.webservicesserver.ws.numbers.NumberToWords;
+import es.neesis.webservicesserver.ws.numbers.NumberToWordsResponse;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 
 import java.math.BigDecimal;

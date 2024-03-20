@@ -6,7 +6,7 @@
 Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
 Visite https://eclipse-ee4j.github.io/jaxb-ri 
 Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-Generado el: 2024.03.20 a las 11:53:54 AM CET 
+Generado el: 2024.03.20 a las 12:10:29 PM CET 
 
   -->
       
@@ -14,31 +14,31 @@ Generado el: 2024.03.20 a las 11:53:54 AM CET
             
         <schemaBindings map="false">
                   
-            <package name="es.andrea.webservicesserver.ws.numbers"/>
+            <package name="es.neesis.webservicesserver.ws.numbers"/>
                 
         </schemaBindings>
             
         <bindings if-exists="true" scd="tns:NumberToWords">
                   
-            <class ref="es.andrea.webservicesserver.ws.numbers.NumberToWords"/>
+            <class ref="es.neesis.webservicesserver.ws.numbers.NumberToWords"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:NumberToWordsResponse">
                   
-            <class ref="es.andrea.webservicesserver.ws.numbers.NumberToWordsResponse"/>
+            <class ref="es.neesis.webservicesserver.ws.numbers.NumberToWordsResponse"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:NumberToDollars">
                   
-            <class ref="es.andrea.webservicesserver.ws.numbers.NumberToDollars"/>
+            <class ref="es.neesis.webservicesserver.ws.numbers.NumberToDollars"/>
                 
         </bindings>
             
         <bindings if-exists="true" scd="tns:NumberToDollarsResponse">
                   
-            <class ref="es.andrea.webservicesserver.ws.numbers.NumberToDollarsResponse"/>
+            <class ref="es.neesis.webservicesserver.ws.numbers.NumberToDollarsResponse"/>
                 
         </bindings>
           
